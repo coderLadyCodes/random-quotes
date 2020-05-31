@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+
+
+body{
+    background-image: url("image.jpg"); 
+    width:100vw;
+    height:100vh;    
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* backdrop-filter: opacity(60%); */
+    font-family: 'Dancing Script', cursive;
+    Font-size:2rem;
+    color:white;
+}
+
+
+#container{
+    width:40%;
+    height:30%;
+    margin:15% auto;
+    background-color:rgba(54, 4, 70, 0.712);
+    border-radius: 40%;  
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+
+.btn, #quote {
+    margin:30px; 
+    font-size:2.5rem; 
+}
+
+#btn{
+    width: 11em;
+    height:1.75em;
+    border-radius: 45px;
+    font-size:2rem;
+    cursor: pointer;
+    background-color:transparent;
+    letter-spacing: 3px;
+    border-color: seashell;
+    color:white;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+#btn:hover{
+    background-color: rgba(253, 135, 253, 0.726);
+}
+
+@media (max-width: 1600px) {
+    #container{
+        width:55%;
+        margin-top:25%;
+}
+#btn{
+    width:10em;
+    height:2.5em;
+    font-size:1.25rem;
+}
+#quote{
+    font-size:2rem;
+}
+}
+
+@media (max-width: 900px) {
+    #container{
+        margin-top:40%;
+        font-size:1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    #container{
+        width:50%;
+        font-size:12px;
+    }
+}
