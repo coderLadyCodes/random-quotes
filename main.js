@@ -17,4 +17,3 @@ btn.addEventListener('click', function(){
     quote.innerHTML = quoteRandom;
 })
 
-//??
