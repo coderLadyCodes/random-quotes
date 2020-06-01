@@ -21,8 +21,8 @@ body{
 
 #container{
     width:40%;
-    height:30%;
-    margin:15% auto;
+    height:40%;
+    margin:10% auto;
     background-color:rgba(54, 4, 70, 0.712);
     border-radius: 40%;  
     display:flex;
@@ -38,7 +38,7 @@ body{
 
 #btn{
     width: 11em;
-    height:1.75em;
+    height:2em;
     border-radius: 45px;
     font-size:2rem;
     cursor: pointer;
