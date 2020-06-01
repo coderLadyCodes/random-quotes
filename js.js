@@ -16,3 +16,5 @@ btn.addEventListener('click', function(){
     let quoteRandom = quotes[Math.floor(Math.random() * quotes.length)]
     quote.innerHTML = quoteRandom;
 })
+
+//??
