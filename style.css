@@ -58,7 +58,7 @@ body{
 @media (max-width: 1600px) {
     #container{
         width:55%;
-        margin-top:25%;
+        margin-top:10%;
 }
 #btn{
     width:10em;
@@ -72,7 +72,7 @@ body{
 
 @media (max-width: 900px) {
     #container{
-        margin-top:40%;
+        margin-top:25%;
         font-size:1.5rem;
     }
 }
