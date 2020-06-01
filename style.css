@@ -22,7 +22,7 @@ body{
 #container{
     width:40%;
     height:50%;
-    margin:5% auto;
+    margin:15% auto;
     background-color:rgba(54, 4, 70, 0.712);
     border-radius: 40%;  
     display:flex;
